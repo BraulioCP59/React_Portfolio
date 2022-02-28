@@ -1,13 +1,14 @@
+import React, {useState} from 'react';
+import Navigation from '../Navigation/Navigation';
+
 function Header ({/*props*/}) {
     return (
-      <div>
-        <div>
-          <h1>{title.substr(0, 50)}</h1>
-          <h3>{category}</h3>
-          <p>{price}$</p>
-          <div>{description.substr(0, 100)}</div>
-        </div>
-      </div>
+      <>
+        <header className="flex justify-between bg-gray-800 text-corn-silk">
+            <h1 className="mt-2 h-12 pl-12 pr-3 pt-2 bg-gradient-to-l from-cool-green via-cool-darker-green to-cool-dark hover:from-pink-500 hover:to-yellow-500 text-3xl bg-center">Braulio Mora</h1>
+            <Navigation></Navigation>
+        </header>
+      </>
     );
   }
   

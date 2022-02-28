@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-//import Header from './components/Header/Header';
+import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
+import Subtitle from './components/Subtitle/Subtitle';
 //import Project from './components/Project/Project';
 //import Footer from './components/Footer/Footer';
 
@@ -9,7 +10,8 @@ import Navigation from './components/Navigation/Navigation';
 function App() {
   return (
     <div className="App">
-      <Navigation></Navigation>
+      <Header></Header>
+      <Subtitle></Subtitle>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

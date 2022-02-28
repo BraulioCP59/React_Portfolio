@@ -193,15 +193,6 @@ This homework is graded based on the following criteria:
 
     * Application must be deployed to GitHub Pages.
 
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
 
 ### Application Quality: 15%
 
