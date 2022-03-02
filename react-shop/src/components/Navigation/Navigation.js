@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function Navigation ({/*props*/}) {
+function Navigation ({ currentPage, handlePageChange }) {
     return (
         <nav className="bg-gray-800">
              <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -9,13 +9,13 @@ function Navigation ({/*props*/}) {
                     <div className="hidden sm:block sm:ml-6">
                         <div className="flex space-x-4">
 
-                        <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">About Me</a>
+                        <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')} className={currentPage === 'AboutMe' ? 'bg-gray-900 text-white rounded-md px-3' : 'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'}>About Me</a>
 
-                        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
+                        <a href="#Portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'bg-gray-900 text-white rounded-md px-3' : 'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'}>Portfolio</a>
 
-                        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Resume</a>
+                        <a href="#Resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'bg-gray-900 text-white rounded-md px-3' : 'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'}>Resume</a>
 
-                        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                        <a href="#Contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'bg-gray-900 text-white rounded-md px-3' : 'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'}>Contact Me</a>
 
                         </div>
                     </div>
