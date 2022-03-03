@@ -23,11 +23,6 @@ SO THAT I can assess whether they're a good candidate for an open position
 WHEN I enter text into the email address field
 THEN I receive a notification if I have entered an invalid email address
 
-WHEN I am presented with the Resume section 
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
@@ -45,8 +40,11 @@ THEN I see titled images of six of the developer’s applications with links to 
 
 
 
+WHEN I am presented with the Portfolio section - Done
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories - Done
 
-
+WHEN I am presented with the Resume section - done 
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies - done
 
 WHEN I move my cursor out of one of the form fields without entering text  - Done
 THEN I receive a notification that this field is required - Done

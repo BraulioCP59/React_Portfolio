@@ -23,7 +23,11 @@ function Portfolio()
                         </div>
 
                         <div class="px-6 py-4 border-t border-gray-200">
-                        Deployed: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://rental-finders.herokuapp.com/'>https://rental-finders.herokuapp.com/</a>
+                        Deployed: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://rental-finders.herokuapp.com/'>rental-finders.herokuapp.com/</a>
+                        </div>
+
+                        <div class="px-6 py-4 border-t border-gray-200">
+                        GitHub: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://github.com/BraulioCP59/rental-finder'>github.com/BraulioCP59/rental-finder</a>
                         </div>
 
                         <div class="bg-gray-200 px-6 py-1">
@@ -60,6 +64,10 @@ function Portfolio()
                         Deployed: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://tech-blog-brauliocp59-prod.herokuapp.com/'>tech-blog-brauliocp59-prod.herokuapp.com/</a>
                         </div>
 
+                        <div class="px-6 py-4 border-t border-gray-200">
+                        GitHub: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://github.com/BraulioCP59/TechBlog_MVC'>github.com/BraulioCP59/TechBlog_MVC</a>
+                        </div>
+
                         <div class="bg-gray-200 px-6 py-1">
                             <section className="mb-6">
                                 <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
@@ -89,6 +97,10 @@ function Portfolio()
 
                         <div class="px-6 py-4 border-t border-gray-200">
                         Deployed: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://budget-tracker-brauliocp59.herokuapp.com/'>budget-tracker-brauliocp59.herokuapp.com/</a>
+                        </div>
+
+                        <div class="px-6 py-4 border-t border-gray-200">
+                        GitHub: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://github.com/BraulioCP59/Online-Online_Budget_Tracker'>github.com/BraulioCP59/Online-Online_Budget_Tracker</a>
                         </div>
 
                         <div class="bg-gray-200 px-6 py-1">
@@ -125,6 +137,10 @@ function Portfolio()
                         Deployed: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://brauliocp59.github.io/Weather_Dashboard_ServerSide_APIs/'>brauliocp59.github.io/Weather_Dashboard_ServerSide_APIs/</a>
                         </div>
 
+                        <div class="px-6 py-4 border-t border-gray-200">
+                        GitHub: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://github.com/BraulioCP59/Weather_Dashboard_ServerSide_APIs'>github.com/BraulioCP59/Weather_Dashboard_ServerSide_APIs</a>
+                        </div>
+
                         <div class="bg-gray-200 px-6 py-1">
                             <section className="mb-6">
                                 <div className="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
@@ -144,7 +160,7 @@ function Portfolio()
                         
                         <div class="font-mono font-semibold text-xl bg-gray-200 text-gray-700 text-lg px-6 py-4">Note Taker</div>
                         <div class="flex justify-between items-center px-3 py-3">
-                            <img src={noteTakerImage} alt="Featured Application" className=""/>
+                            <img src={noteTakerImage} alt="Featured Application" className="h-60"/>
                         </div>
 
                         
@@ -154,6 +170,10 @@ function Portfolio()
 
                         <div class="px-6 py-4 border-t border-gray-200">
                         Deployed: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://note-taker--brauliocp59.herokuapp.com/notes'>note-taker--brauliocp59.herokuapp.com/notes</a>
+                        </div>
+
+                        <div class="px-6 py-4 border-t border-gray-200">
+                        GitHub: <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://github.com/BraulioCP59/Note_taker_ExpressJS'>github.com/BraulioCP59/Note_taker_ExpressJS</a>
                         </div>
 
                         <div class="bg-gray-200 px-6 py-1">
