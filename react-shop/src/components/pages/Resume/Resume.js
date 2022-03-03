@@ -12,6 +12,7 @@ import logoLinkedIn from './assets/logo-linkedin.svg'
 import logoStackOverflow from './assets/logo-stackoverflow.svg'
 import logoTwitter from './assets/logo-twitter.svg'
 import peopleIcon from './assets/people-outline.svg'
+import resumeDoc from './Resume.pdf';
 
 function Resume()
 {
@@ -20,7 +21,11 @@ function Resume()
       }
       
     return(
-        <div className='flex justify-center '>
+        <div className='grid flex justify-center'>
+
+            <div>
+                <button class="border-0 text-lg h-12 w-36 bg-red-500 hover:bg-red-700 text-white mt-2 px-3 rounded-md"><a href={resumeDoc} download="Braulio_Mora.pdf"> Download </a> </button>
+            </div>
             <div className='font-sans antialiased w-full'>                
                 <div className="container mx-auto max-w-screen-xl">
                 <main
