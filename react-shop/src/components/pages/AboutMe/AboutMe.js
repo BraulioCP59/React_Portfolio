@@ -13,8 +13,8 @@ function AboutMe()
                 <div className="mb-auto mt-auto max-w-lg">
                 <h1 className="text-3xl uppercase">Braulio Mora</h1>
                 <p className="font-semibold mb-5">Full Stack Developer</p>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-                <button className="bg-black rounded-md py-3 px-7 mt-6 text-white">Email Me</button>
+                <p>CAD CAM product owner, production manager and businesses systems specialist for Glidewell Dental with a passion for developing and testing software. I recently completed the full stack web development boot camp at UCI and would like to pursue a technical career in software development.</p>
+                <button className="bg-black rounded-md py-3 px-7 mt-6 text-white"><a href='mailto:brauliocdc59@gmail.com'>Email Me</a></button>
                 </div>
             </div>
             </div>
